@@ -1,0 +1,203 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(background.jpg) no-repeat center center/cover;    
+    opacity: 1;
+}
+.heading
+{
+    margin-left: 40%;
+}
+.heading h1
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.container
+{
+    color: #000;
+    /* background-color: #1894c8; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    width: 700px;
+    /* height: 900px; */
+    margin-left: 30%;
+    margin-bottom: 7%;
+}
+.balance-container
+{
+    margin-left: 2%;
+    text-transform: uppercase;
+}
+.balance-container h2
+{
+    font-size: 1.5rem;
+}
+#balance
+{
+    margin-top: -2%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+.in-exp-container
+{
+    color: #000;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 25%;
+    width: 350px;
+    height: 125px;
+    background-color: rgb(216, 209, 209);
+    border: 1px solid none;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.income-container
+{
+    margin-left: 7%;
+}
+.income-container h2
+{
+    font-size: 1.5rem;  
+}
+#income
+{
+    color: green;
+    margin-top: -5%;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.expense-container
+{
+    margin-left: 30%;
+}
+.expense-container h2
+{
+    font-size: 1.5rem;
+}
+#expense
+{
+    color: rgb(199, 9, 9);
+    margin-top: -2%;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.transaction-container h2
+{
+    margin-left: 2%;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+#transaction
+{
+    color: #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#transaction li
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgb(216, 209, 209);
+    font-weight: 600;
+}
+#transaction li span
+{
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#transaction li .income-amt
+{
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+#transaction li .expense-amt
+{
+    display: inline-block;
+    background-color: rgb(199, 9, 9);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+#transaction li button
+{
+    padding: 5px 10px 5px 10px;
+}
+.new-container h2
+{
+    margin-top: 5%;
+    margin-left: 2%;
+    text-transform: uppercase;
+}
+.new-container form
+{
+    display: flex;
+    flex-direction: column;
+}
+.new-container form label
+{
+    margin-left: 30%;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #000;
+}
+.new-container form input
+{
+    height: 25px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: none;
+    margin-left: 30%;
+    outline: none;
+}
+.new-container form button
+{
+    border: none;
+    margin-left: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 400px;
+}
+#income-btn
+{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#income-btn:hover
+{
+    background-color: rgb(18, 191, 18);
+}
+#expense-btn
+{
+    background-color: rgb(199, 9, 9);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#expense-btn:hover
+{
+    background-color: red;
+}
